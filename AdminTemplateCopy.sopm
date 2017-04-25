@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.36) -->
+    <Name>AdminTemplateCopy</Name>
+    <Version>5.0.1</Version>
+    <Framework>5.0.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>http://www.perl-services.de</URL>
+    <Description Lang="de">Kopierfunktionalität für Vorlagen.</Description>
+    <Description Lang="en">copy feature for templates.</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/Config/Files/AdminTemplateCopy.xml" />
+        <File Permission="644" Location="Kernel/Modules/AdminTemplateCopy.pm" />
+        <File Permission="644" Location="Kernel/Output/HTML/FilterElementPost/AdminTemplateCopy.pm" />
+        <File Permission="644" Location="doc/AdminTemplateCopy.json" />
+    </Filelist>
+</otrs_package>
