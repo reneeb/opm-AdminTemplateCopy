@@ -40,7 +40,7 @@ sub Run {
     my $Title    = $LayoutObject->{LanguageObject}->Translate("Copy Template");
 
     ${ $Param{Data} } =~ s{
-        <a \s class="TrashCan" \s href=".*?ID=(\d+) .*? </a>\K
+        <a \s class="TrashCan .*? \s href=".*?ID=(\d+) .*? </a>\K
     }{
         $Self->__Linkify( $Baselink, $1, $Title, $Token );
     }exmsg;
