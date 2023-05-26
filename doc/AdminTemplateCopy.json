@@ -1,11 +1,14 @@
 {
     "name": "AdminTemplateCopy",
-    "version": "6.0.2",
+    "version": "6.0.3",
     "framework": [
         "6.0.x",
         "6.1.x",
         "6.2.x",
-        "6.3.x"
+        "6.3.x",
+        "6.4.x",
+        "6.5.x",
+        "7.0.x"
     ],
     "vendor": {
         "name": "Perl-Services.de",
@@ -15,5 +18,8 @@
     "description" : {
         "en": "copy feature for templates.",
         "de": "Kopierfunktionalität für Vorlagen."
-    }
+    },
+    "exclude_files" : [
+        "doc/AdminTemplateCopy.json"
+    ]
 }
